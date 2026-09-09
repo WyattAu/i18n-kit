@@ -1,4 +1,3 @@
-use crate::error::I18nError;
 
 /// Simple plural rule selection based on a count.
 ///

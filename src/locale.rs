@@ -1,4 +1,5 @@
 use crate::error::I18nError;
+#![allow(clippy::unwrap_used)] // tests use unwrap
 
 /// A BCP 47 language tag (e.g. `"en"`, `"en-US"`, `"zh-Hans"`).
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
@@ -119,6 +120,7 @@ impl std::str::FromStr for Locale {
 }
 
 #[cfg(test)]
+#[allow(clippy::unwrap_used)]
 mod tests {
     use super::*;
 
