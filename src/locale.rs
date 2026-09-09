@@ -1,6 +1,3 @@
-use crate::error::I18nError;
-#![allow(clippy::unwrap_used)] // tests use unwrap
-
 /// A BCP 47 language tag (e.g. `"en"`, `"en-US"`, `"zh-Hans"`).
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Locale(String);
