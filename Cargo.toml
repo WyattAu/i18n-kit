@@ -1,6 +1,6 @@
 [package]
 name = "i18n-kit"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 rust-version = "1.85"
 description = "Runtime i18n for Rust — BCP 47 locales, dot-notation catalogs, fallback chains, interpolation, plural rules"

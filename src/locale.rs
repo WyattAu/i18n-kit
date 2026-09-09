@@ -1,3 +1,5 @@
+use crate::error::I18nError;
+
 /// A BCP 47 language tag (e.g. `"en"`, `"en-US"`, `"zh-Hans"`).
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Locale(String);
