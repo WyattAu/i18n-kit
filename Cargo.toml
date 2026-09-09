@@ -1,0 +1,26 @@
+[package]
+name = "i18n-kit"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Runtime i18n for Rust — BCP 47 locales, dot-notation catalogs, fallback chains, interpolation, plural rules"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/WyattAu/i18n-kit"
+keywords = ["i18n", "localization", "translation", "locale", "internationalization"]
+categories = ["internationalization", "rust-patterns"]
+exclude = ["/target"]
+
+[dependencies]
+thiserror = "2"
+serde = { version = "1", features = ["derive"], optional = true }
+serde_json = { version = "1", optional = true }
+
+[features]
+default = ["std"]
+std = ["serde?/std", "serde_json?/std"]
+serde = ["dep:serde"]
+json = ["dep:serde_json", "dep:serde", "serde/std"]
+
+[lints.clippy]
+unwrap_used = "warn"
+expect_used = "warn"
