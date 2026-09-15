@@ -1,6 +1,8 @@
 #![cfg(feature = "json")]
+// Test assertions unwrap by design; failures must be loud.
+#![allow(clippy::unwrap_used, clippy::expect_used)]
 
-use i18n_kit::{Catalog, Locale};
+use i18n_kit::Catalog;
 use std::collections::BTreeMap;
 
 /// Load translations from a JSON string of `{ "key": "value" }` pairs.

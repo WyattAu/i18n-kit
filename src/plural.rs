@@ -1,4 +1,3 @@
-
 /// Simple plural rule selection based on a count.
 ///
 /// This covers the CLDR "cardinal" categories zero/one/other for a
