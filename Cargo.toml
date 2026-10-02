@@ -24,3 +24,6 @@ json = ["dep:serde_json", "dep:serde", "serde/std"]
 [lints.clippy]
 unwrap_used = "warn"
 expect_used = "warn"
+
+[package.metadata.layers]
+tier = "L0"
