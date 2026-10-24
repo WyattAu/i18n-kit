@@ -1,9 +1,9 @@
 [package]
 name = "i18n-kit"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 rust-version = "1.85"
-description = "Runtime i18n for Rust — BCP 47 locales, dot-notation catalogs, fallback chains, interpolation, plural rules"
+description = "Runtime i18n for Rust: BCP 47 locales, flat catalogs with dot-notation keys, fallback chains, interpolation, simple pluralization"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/WyattAu/i18n-kit"
 keywords = ["i18n", "localization", "translation", "locale", "internationalization"]
