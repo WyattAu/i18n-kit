@@ -1,7 +1,7 @@
 # i18n-kit
 [![Estate integration](https://github.com/WyattAu/estate-integration/actions/workflows/ci.yml/badge.svg)](https://github.com/WyattAu/estate-integration/actions/workflows/ci.yml)
 
-Runtime i18n for Rust — BCP 47 locales, dot-notation catalogs, fallback chains, `{placeholder}` interpolation, and simple plural rules. Zero-dep core (serde optional).
+Runtime i18n for Rust; BCP 47 locales, dot-notation catalogs, fallback chains, `{placeholder}` interpolation, and simple plural rules. Zero-dep core (serde optional).
 
 ## Quick start
 
